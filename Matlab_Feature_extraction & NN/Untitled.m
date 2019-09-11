@@ -1,0 +1,5 @@
+figure('color',[1 1 1])
+plot(200-xx,yy,'o',200-xx,xx,'o')
+xlabel("# of RUL")
+ylabel("Predicted # of RUL")
+axis([0,200,0,200])
